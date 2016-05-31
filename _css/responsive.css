@@ -1,0 +1,122 @@
+/*--------------------------------------------
+
+Breakpoint for Smartphones
+
+---------------------------------------------*/
+
+@media (max-width: 500px) {
+
+.container {
+    margin-left: 6vw;
+    margin-right: 6vw;
+    margin-top: 12vw;
+    width: 88vw;
+  }
+
+.container h1 {
+    font-weight: bold;
+    font-size: 9.89vw;
+    line-height: 11.25vw;
+    text-align: left;
+    padding-bottom: 6vw;
+    letter-spacing: -0.087vw;
+}
+
+.description {
+  margin-left: 0vw;
+  margin-right: 0vw;
+  margin-top: 0vw;
+  width: 87vw;
+}
+
+.description p {
+  font-size: 5.49vw !important;
+  line-height: 7vw !important;
+  text-align: left !important;
+  letter-spacing: -0.187vw !important;
+}
+
+.container a:hover:after {
+	height: 0px;
+	background: rgb(0, 0, 0);
+}
+
+.bnt {
+    margin-left: 6vw;
+    margin-right: 6vw;
+    width: 88vw;
+  }
+
+.button_black {
+  margin: 0vw 0vw 30vw;
+  }
+
+}
+
+/*--------------------------------------------
+
+Breakpoint for Tablets
+
+---------------------------------------------*/
+
+@media (max-width: 800px) {
+
+  .container {
+      margin-left: 6vw;
+      margin-right: 6vw;
+      margin-top: 12vw;
+      width: 88vw;
+    }
+
+  .container h1 {
+      font-weight: bold;
+      font-size: 8.89vw;
+      line-height: 9.25vw;
+      text-align: left;
+      padding-bottom: 6vw;
+      letter-spacing: -0.087vw;
+  }
+
+  .description {
+    margin-left: 0vw;
+    margin-right: 0vw;
+    margin-top: 0vw;
+    width: 87vw;
+  }
+
+  .description p {
+    font-size: 3.89vw;
+    line-height: 5.25vw;
+    text-align: left;
+    letter-spacing: -0.087vw;
+  }
+
+  .container a:hover:after {
+  	height: 0px;
+  	background: rgb(0, 0, 0);
+  }
+
+  .bnt {
+      margin-left: 6vw;
+      margin-right: 6vw;
+      width: 88vw;
+    }
+
+  .button_black {
+    margin: 0vw 0vw 20vw;
+    }
+
+}
+
+/*--------------------------------------------
+
+Breakpoint for Cinema Display
+
+---------------------------------------------*/
+
+@media screen and (min-width: 1800px) {
+  .container {
+    margin-top: 7vw;
+  }
+
+}

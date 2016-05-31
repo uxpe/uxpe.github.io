@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+/*--------------------------------------------
+
+Container
+
+---------------------------------------------*/
+
+.container {
+  margin: auto;
+  text-align: center;
+  width:990px;
+  margin-top: 80px;
+ }
+
+ .bnt {
+   margin: auto;
+   text-align: center;
+   width:990px;
+  }
+
+/*--------------------------------------------
+
+FONTS
+
+---------------------------------------------*/
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url("../_fonts/hlv-bld.otf");
+}
+
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+
+/*--------------------------------------------
+
+Color Selection
+
+---------------------------------------------*/
+
+::selection {
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+::-moz-selection {
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+body {
+  background-color: rgb(255, 59, 58);
+}
+
+/*--------------------------------------------
+
+Typography
+
+---------------------------------------------*/
+
+.container h1 {
+    font-family: Helvetica, 'Helvetica', sans-serif;
+    font-weight: bold;
+    font-size: 74px;
+    line-height: 82px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    letter-spacing: -3px;
+    padding-bottom: 40px;
+}
+
+.container h5 {
+    font-family: Helvetica, 'Helvetica', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    text-align: left;
+    padding-bottom: 32px;
+    text-transform: uppercase;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.container a {
+  color: rgb(0, 0, 0);
+}
+
+.container a {
+	display: inline-block;
+	position: relative;
+  text-decoration: none;
+}
+
+.container a:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 0px;
+	width: 99%;
+	background: transparent;
+	-webkit-transition: all ease 0.2s;
+	-moz-transition: all ease 0.2s;
+	transition: all ease 0.2s;
+}
+
+.container a:hover:after {
+	height: 8px;
+  bottom: 30%;
+	background: rgb(0, 0, 0);
+}
+
+/*--------------------------------------------
+
+Description
+
+---------------------------------------------*/
+
+.description {
+  width: 50%;
+}
+
+.description p {
+  font-family: 'Georgia', serif;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgb(255, 255, 255);
+  letter-spacing: -0.4px;
+  text-align: left;
+  padding-bottom: 24px;
+  -webkit-font-smoothing: antialiased;
+}
+
+/*--------------------------------------------
+
+Button
+
+---------------------------------------------*/
+
+.button_black {
+    display: inline-block;
+    height: 33px;
+    text-align: left;
+    border-radius: 33px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 6px;
+    background-color: rgb(0, 0, 0);
+    margin: 40px 0 104px 0px;
+    transition: 150ms;
+    float: left;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 150ms;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+.button_black:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.button_label_white {
+    text-transform: uppercase;
+    display: inline-block;
+    font-family: Helvetica, 'Helvetica', sans-serif;
+    margin-top: 7px;
+    line-height: 12px;
+    font-size: 12px;
+    letter-spacing: -0.25px;
+    color: rgb(255, 255, 255);
+    margin-left: 4px;
+    -webkit-font-smoothing: antialiased;
+}

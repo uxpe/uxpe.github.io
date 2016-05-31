@@ -107,7 +107,7 @@ Typography
 
 .container a:hover:after {
 	height: 8px;
-  bottom: 30%;
+  bottom: 33px;
 	background: rgb(0, 0, 0);
 }
 
@@ -163,8 +163,9 @@ Button
 .button_label_white {
     text-transform: uppercase;
     display: inline-block;
+    font-weight: bold;
     font-family: Helvetica, 'Helvetica', sans-serif;
-    margin-top: 7px;
+    margin-top: 8px;
     line-height: 12px;
     font-size: 12px;
     letter-spacing: -0.25px;
